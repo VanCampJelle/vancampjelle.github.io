@@ -1,0 +1,616 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* EINDE CSS RESET */
+/* BEGINRESPONSIVE OPZET */
+* {
+    box-sizing: border-box;
+	 -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+*:hover{
+	cursor:default;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row-m:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+
+/* Voor MOBIEL */
+@media only screen and (max-width: 600px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+	.row{
+		display: none;
+	}
+	.mobilecontainer{
+		height:75vh;
+		width:80%;
+		border: 1px black solid;
+		position: absolute;
+		margin-top:2.5em;
+		margin-left:3.5em;
+	}
+	#boventab{
+		height:4vh;
+		width:100%;
+		border: solid 1px black;
+		padding: 0.5em;
+		overflow: auto;
+	}
+	#usermobile{
+		float: left;
+	}
+	
+	.clock{
+    	float: right;
+		align-content: right;
+	}
+	
+	.scherm{
+		padding-top: 0.9em;
+	}
+	.mapknop{
+		margin-top:2em;
+		width:20%;
+		height:5vh;
+		border: solid 1px black;
+		margin-left:8em;
+		padding-top: 0.5em;
+		text-align: center;
+	}
+	.buttons{
+		font-weight: bold;
+	}
+	#werkm,
+	#overm,
+	#gebruikerm,
+	#cvm,
+	#contactm,
+	#gravom,
+	#avivom,
+	#webm{
+		background-color: grey;
+		color: white;
+		with:30%;
+	}
+	
+	#werkknoppenm,
+	#overknoppenm{
+		display: none;
+	}
+}
+
+/* Voor DESKTOP */
+@media only screen and (min-width: 601px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	
+	/* DESKTOP code binnen deze accolades van het @media stuk */
+	@font-face { font-family: Proxima Nova; src: url('Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-regular.otf'); }
+	.row-m{
+		display: none;
+	}
+	#backgrounddesktop{
+		height: 100vh;
+		width: 100%;
+		background-image:url("01-Ontwerp/Achtergrond.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+	#tabwerk{
+		position:absolute;
+	}
+	#tabover{
+		margin-left:50em;
+		position: absolute;
+	}
+	
+	.venster{
+		background-color:cornflowerblue;
+		color: white;
+		width:30em;
+		height:1.5em;
+		position: absolute;
+		user-select: none;
+		margin-top: 9em;
+		
+	}
+	.venster4{
+		background-color:cornflowerblue;
+		color: white;
+		width:25em;
+		height:1.5em;
+		position: absolute;
+		user-select: none;
+	}
+	.venster3{
+		background-color:cornflowerblue;
+		color: white;
+		width:25em;
+		height:1.5em;
+		position: absolute;
+		user-select: none;
+	}
+
+		.venster2{
+		background-color:cornflowerblue;
+		color: white;
+		width:32.01em;
+		height:1.5em;
+		position: absolute;
+			user-select: none;
+		margin-top:10em;
+	}
+
+	.usertab{
+		border: 1px solid black;
+		width:100%;
+		height:3em;
+		position:absolute;
+		text-align: left;
+		padding-left:3.5em;
+		padding-top:1em;
+		bottom: 0;
+		background-color: lightblue;
+		
+	}
+	#windowslogo{
+		background-image: url("");
+		height:1.2em;
+		background-size: contain;
+		background-repeat: no-repeat;
+		widht:1.2em;
+        margin-top:0.2;
+	}
+	.TabContent {
+		background-color: black;
+		color: black;
+		width: 30em;
+		height: 1.5em;
+		position: absolute;
+	}
+	#werk3,
+    #werk2,
+	#werk1,
+	#over1,
+	#contact,
+	#gebruiker{
+		 display:none;
+		
+	}
+	#user{
+		 display:none;
+	}
+	#ceevee{
+		 display:none;
+	}
+	.gegevenspersoon{
+		background-color:white;
+		color: black;
+		width:10em;
+		margin-top:0.3em;
+		height:13em;
+		position: absolute;
+		border: solid 1px;
+		
+	}
+	#gegevenspersoon{
+		background-color:white;
+		color: black;
+		width:10em;
+		margin-top:0.3em;
+		height:13em;
+		position: absolute;
+		border: solid 1px;
+		
+	}
+	
+	.foto{
+		margin-top: 1em;
+		margin-left:2em;
+		margin-bottom: 1em;
+		border: solid 1px;
+		height:6em;
+		width:6em;
+	}
+	#email{
+		margin-left: 2em;
+	}
+	#telefoon{
+		margin-left:2em;
+	}
+	
+	.bericht{
+		background-color:white;
+		color: black;
+		width:21em;
+		margin-top:0.3em;
+		height:13em;
+		position: absolute;
+		border: solid 1px;
+		margin-left:9em;
+	}
+	#emailuser{
+		height:1.4em;
+		position:relative;
+	    margin-top:2em;
+		margin-left:2em;
+		color: black;
+	    float:left;
+	    width:25em;
+	}
+
+	#berichtuser{
+		width:25em;
+		height: 1.4em;
+		position:relative;
+		padding-bottom:8em;
+		margin-top:1.8em;
+		margin-left:2em;
+	    color: black;
+		float:left;
+		padding-top: 0.8em;
+	}
+	
+	.verzend{
+		position: relative;
+		margin-top:0.2em;
+		margin-left:2.1em;
+	}
+	
+	#inleiding{
+		margin-left: 2em;
+	}
+	
+	#stadland{
+		margin-left: 1em;
+	}
+	#woonplaats{
+		margin-left:1em;
+	}
+	
+	.Inleiding{
+			background-color:white;
+		color: black;
+		width:21em;
+		margin-top:0.3em;
+		height:13em;
+		position: absolute;
+		border: solid 1px;
+		margin-left:9em;
+	}
+	
+
+		.cv{
+		background-color:white;
+		color: black;
+		width:30em;
+		margin-top:0.3em;
+		height:33em;
+		position: absolute;
+		border: solid 1px;
+		
+	}
+	
+	
+	#fotocv{
+		background-image:url("Jelle_CV_5CM.pdf");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin: 1em 1em 1em 4em;
+		height:30em;
+		width:21.24em;
+	}
+	
+	#map1,
+	#buttoncontact,
+	#buttonwerk{
+		margin-left:1em;
+		position: absolute;
+	}
+	#map2,
+	#buttongebruiker,
+	#buttonover{
+		margin-left:6em;
+		position: absolute;
+	}
+	#buttoncv{
+		margin-left:11em;
+		
+	}
+	#map1,
+	#map2{
+		height:90px;
+	}
+	#map3{
+		margin-left:11em;
+		height:80px;
+	}
+	.folders{
+	margin-top:1em;
+	position: absolute;
+	width:65px;
+	height:80px;
+	}
+	
+	.folderimage{
+	background-image: url("01-Ontwerp/Folder.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:25.5px;
+	height:40.5px;
+	margin-top:1em;
+	margin-left:1.2em;
+	}
+	
+	
+	.tabsfile{
+		margin-top:10em;
+		margin-left:10em;
+		height:10em;
+		width:25em;
+		border: 1px black solid;
+		background-color: white;
+		display:none;
+		position: relative;
+	}
+	
+	.foldername{
+		font-family:Proxima nova;
+		text-align:center;
+		width:100%;
+		font-size:16px;
+		position:absolute;
+		
+		bottom:0;
+		color:black;
+		border-radius:10px;
+	}
+	
+	
+	
+	.sidebar{
+		background-color: white;
+		color: black;
+		width:32em;
+		margin-top: 0.1em;
+		height: 17em;
+		position: absolute;
+		border: solid 1px;
+		padding-top: 0.5em;
+		display: flex;
+		flex-direction: column;
+		gap: 0,1em;
+	}
+	
+	.informatie{
+		background-color:white;
+		color: black;
+		width:23em;
+		margin-top:0.1em;
+		height:17em;
+		position: absolute;
+		border: solid 1px;
+		margin-left:9em;
+		padding: 1.5em 1em 1em 1em;
+	}
+	
+	.projectnaam{
+		margin-left: 1.5em;
+		margin-top:0.9em;
+	}
+	
+	.space{
+		margin-top: 1em;
+		height: 12em;
+		
+	}
+	
+	#GroupButtons {
+		padding: 1em;;
+		width:210px;
+		margin:auto;
+		display:block;
+		margin-top: 0.2em;
+	}
+	
+	/* Buttons Video's */
+	.button{
+		float:left;
+		width:30px;
+		height: 30px;
+		border-radius:50px;
+		margin-left:30px;
+		margin-top:0;
+	}
+	
+	/* Tekst, titels & opmaak */
+	
+	h1{
+	font-weight: bold;
+	}
+	
+	b{
+		font-weight: bold;
+	}
+	
+	i{
+		font-style: italic;
+	}
+	.closetab{
+		position: relative;
+		float:right;
+		background-color: dodgerblue;
+	}
+	#tijd{
+		margin-top:1em;
+		margin-right: 1em;
+		text-align: right;
+		margin-bottom: 1.2em;
+		bottom:0;
+		position: absolute;
+		right:0;
+	}
+	#video1{
+		display: none;
+		
+	}
+	#video2{
+		display: none;
+	}
+
+	.projectnaam {
+	text-align: left;
+	}
+	#logodesktop{
+	width:5vw;
+	background-image:url();
+	position: absolute;
+	}
+	
+dfn {
+  position: relative;
+}
+dfn:hover:after {
+  content: attr(title);
+  background: #fff;
+  padding: 5px 12px;
+  border: solid 1px #ddd;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+	.uitlegopdracht{
+		bottom: 0;
+		position: absolute;
+		margin-bottom:1em;
+		margin-left:15em;
+		
+	}
+	
+	title {
+  display: none !important;
+}
+	
+	#opdr1{
+		background-image: url("GRAVO/Appel.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+	}
+	#opdr2{
+		background-image: url("GRAVO/Dodge_logo.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+	}
+	#opdr3{
+		background-image: url("GRAVO/Kerstkaartjes.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+	}
+	#opdr4{}
+	#opdr5{}
+	#opdr6{}
+	#opdr7{}
+	#opdr12{
+		background-image: url("AVIVO/Edit-Race.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		
+	}
+}
