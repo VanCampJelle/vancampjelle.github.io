@@ -577,7 +577,7 @@ dfn:hover:after {
 }
 	
 	#opdr1{
-		background-image: url("GRAVO/Appel.jpg");
+		background-image: url("Jelle_Structuur/GRAVO/Appel.jpg");
 		height: 50vh;
 		width:80%;
 		background-size: contain;
@@ -585,7 +585,7 @@ dfn:hover:after {
 		display: none;
 	}
 	#opdr2{
-		background-image: url("GRAVO/Dodge_logo.jpg");
+		background-image: url("Jelle_Structuur/GRAVO/Dodge_logo.jpg");
 		height: 50vh;
 		width:80%;
 		background-size: contain;
@@ -593,19 +593,24 @@ dfn:hover:after {
 		display: none;
 	}
 	#opdr3{
-		background-image: url("GRAVO/Kerstkaartjes.jpg");
+		background-image: url("Jelle_Structuur/GRAVO/Kerstkaartjes.jpg");
 		height: 50vh;
 		width:80%;
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: none;
 	}
-	#opdr4{}
+	#opdr4{background-image: url("Jelle_Structuur/GRAVO/LP_Structuur.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;}
 	#opdr5{}
 	#opdr6{}
 	#opdr7{}
 	#opdr12{
-		background-image: url("AVIVO/Edit-Race.jpg");
+		background-image: url("Jelle_Structuur/GRAVO/");
 		height: 50vh;
 		width:80%;
 		background-size: contain;
