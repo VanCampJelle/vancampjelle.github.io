@@ -608,7 +608,14 @@ dfn:hover:after {
 		display: none;}
 	#opdr5{}
 	#opdr6{}
-	#opdr7{}
+	#opdr7{
+		background-image: url("Jelle_Structuur/GRAVO/Jelle-6CM-Carouselfoto.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+	}
 	#opdr12{
 		background-image: url("Jelle_Structuur/GRAVO/");
 		height: 50vh;
