@@ -610,7 +610,7 @@ dfn:hover:after {
 	#opdr6{}
 	#opdr7{
 		background-image: url("Jelle_Structuur/GRAVO/Jelle-6CM-Carouselfoto.jpg");
-		height: 50vh;
+		height: 20vh;
 		width:80%;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -624,5 +624,22 @@ dfn:hover:after {
 		background-repeat: no-repeat;
 		display: none;
 		
+		
+	}
+	#opdr13{
+		background-image: url("Jelle_Structuur/Web/Soundbord.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		
+		
+	}
+	#opdr23{
+		margin-bottom: 5em;
+	height: 20vh;
+		width:80%;
+		position: absolute;
 	}
 }
