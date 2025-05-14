@@ -17,6 +17,11 @@ function dubbelClick(id){
 	document.getElementById(id).style.color = "white";
 	
 }
+function grootScherm(id){
+	
+  document.getElementById(id).toggleClass('fullscreen'); 
+
+}
  function openVideo(id,closeid,closeid2,closeid3,closeid4,closeid5,closeid6) {
 	
 	 
