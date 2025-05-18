@@ -99,4 +99,19 @@ window.onload = function() {
         document.addEventListener('mouseup', mouseUpHandler);
     });
 });
+  div.addEventListener("click", () => {
+    if (!document.fullscreenElement) {
+      div.requestFullscreen().catch(err => {
+        console.error(`Error trying to enable fullscreen: ${err.message}`);
+      });
+    }
+  });
 
+  // Double click to exit fullscreen
+  div.addEventListener("dblclick", () => {
+    if (document.fullscreenElement) {
+      document.exitFullscreen().catch(err => {
+        console.error(`Error trying to exit fullscreen: ${err.message}`);
+      });
+    }
+  });
