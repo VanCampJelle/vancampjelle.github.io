@@ -584,6 +584,8 @@ dfn:hover:after {
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: none;
+      cursor: pointer;
+      user-select: none;
 	}
 	#opdr2{
 		background-image: url("Jelle_Structuur/GRAVO/Dodge_logo.jpg");
@@ -592,6 +594,8 @@ dfn:hover:after {
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: none;
+		cursor: pointer;
+      user-select: none;
 	}
 	#opdr3{
 		background-image: url("Jelle_Structuur/GRAVO/Kerstkaartjes.jpg");
@@ -600,32 +604,67 @@ dfn:hover:after {
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: none;
+		cursor: pointer;
+      user-select: none;
 	}
 	#opdr4{background-image: url("Jelle_Structuur/GRAVO/LP_Structuur.jpg");
 		height: 50vh;
 		width:80%;
 		background-size: contain;
 		background-repeat: no-repeat;
-		display: none;}
-	#opdr5{}
-	#opdr6{}
-	#opdr7{
-		background-image: url("Jelle_Structuur/GRAVO/Jelle-6CM-Carouselfoto.jpg");
-		height: 20vh;
-		width:80%;
-		background-size: contain;
-		background-repeat: no-repeat;
 		display: none;
+		cursor: pointer;
+      user-select: none;
 	}
-	#opdr12{
-		background-image: url("Jelle_Structuur/GRAVO/");
+	#opdr5{
+		background-image: url("Jelle_Structuur/GRAVO/onderzoekstructuur.jpg");
 		height: 50vh;
 		width:80%;
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: none;
-		
-		
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr6{
+		background-image: url("Jelle_Structuur/GRAVO/Recept-art.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr7{
+		background-image: url("Jelle_Structuur/GRAVO/Jelle-6CM-Carouselfoto.jpg");
+		height: 15vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr12{
+		background-image: url("Jelle_Structuur/AVIVO/Edit-Race.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr22{
+		background-image: url("Jelle_Structuur/AVIVO/Tutorials.jpg");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
 	}
 	#opdr13{
 		background-image: url("Jelle_Structuur/Web/Soundbord.jpg");
@@ -634,13 +673,35 @@ dfn:hover:after {
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: none;
-		
-		
+		cursor: pointer;
+      user-select: none;
 	}
 	#opdr23{
 		margin-bottom: 5em;
 	height: 20vh;
 		width:80%;
 		position: absolute;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr33{
+		background-image: url("Jelle_Structuur/Web/Screenshot 2025-05-18 at 20.42.44.png");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr43{
+		background-image: url("Jelle_Structuur/Web/Screenshot 2025-05-18 at 20.43.35.png");
+		height: 50vh;
+		width:80%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
 	}
 }
