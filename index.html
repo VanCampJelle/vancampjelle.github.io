@@ -163,7 +163,9 @@
 				<div class="space">
 				<!-- <id> voor afbeeldingen en <video> voor videos!-->
 				<div id="opdr13">Omnia-Soundbord</div>
-				<video id="opdr23" width="320" height="240" controls> <source src="Jelle_Structuur/Web/Jelle_JavaScript-Game_5CM.mp4" type="video/mp4">Spel  </video>
+				<div id="opdr23">
+					Spel JavaScript
+					<video id="spel" width="320" height="200" controls> <source src="Jelle_Structuur/Web/Jelle_JavaScript-Game_5CM.mp4"></video></div>
 				<div id="opdr33" >
 					Gamecharacter
 					</div>
@@ -196,7 +198,7 @@
 		<div class="folderimage"></div>
 		<div class="foldername" id="foldergebruiker">Gebruiker</div>
 		</div>
-		<div class="folders" id="buttoncv" onClick="dubbelClick('foldercv')" ondblClick="openDiv('ceevee','foldercv')">
+		<div class="folders" id="buttoncv" onClick="dubbelClick('foldercv')" ondblClick="openDiv('ceev','foldercv')">
 		<div class="folderimage"></div>
 		<div class="foldername" id="foldercv">CV</div>
 		</div>	
@@ -207,13 +209,14 @@
                 PC Over E-mail    
         <div class="gegevenspersoon">
         <div class="foto"></div>
-        <div id="email">gebruiker@.</div>
+        <div id="email">jellevancamp
+						@hotmail.be</div>
         <div id="telefoon">0493466327</div>
         </div>
         <div class="bericht">
         <input type="email" id="emailuser" placeholder="E-mailadres">
-        <input type="text" id="berichtuser" placeholder="Type hier je bericht...">
-        <button class="verzend">Verzenden</button>
+<input type="text" id="berichtuser" placeholder="Type hier je bericht, naam en email...">
+<button class="verzend">Verzenden</button>
         </div>
         </div>
 		</div>
@@ -229,9 +232,10 @@
         <div class="gegevenspersoon">
         <div class="foto"></div>
         <div id="stadland">Waregem, Belgi&#235;</div>
-        <div class="Inleiding">
-                    Korte inleiding...
+       
         </div>
+			 <div class="Inleiding">
+                    Korte inleiding...
         </div>
         </div>
         </div>
@@ -239,10 +243,10 @@
 			
 		
 			
-		<div class="row" id="ceevee">
+		<div class="row" id="ceev">
         <div class="col-12" id="cv">
         <div class="venster">
-        <button class="closetab" onClick="closeDiv('ceevee')">X</button>    
+        <button class="closetab" onClick="closeDiv('ceev')">X</button>    
                 PC Over CV   
         <div class="cv">
         <div id="fotocv"></div>
@@ -302,6 +306,30 @@
 		
 		</div>
 	</div>
-</div>  
+</div> 
+	 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.11.0/dist/email.min.js"></script>
+	
+  <script>
+    // Initialiseer met jouw eigen Public Key
+    emailjs.init("FJQLTSpXNFn5LgYbD");
+
+    document.querySelector(".verzend").addEventListener("click", function () {
+      const email = document.getElementById("emailuser").value;
+      const bericht = document.getElementById("berichtuser").value;
+
+      const templateParams = {
+        from_email: email,
+        message: bericht
+      };
+
+      // Verzend het bericht
+      emailjs.send("service_m97p2eq", "template_yrgfxa8", templateParams)
+        .then(function (response) {
+          alert("Bericht verzonden!");
+        }, function (error) {
+          alert("Fout bij verzenden: " + JSON.stringify(error));
+        });
+    });
+  </script>
 </body>
 </html>

@@ -264,7 +264,7 @@ table {
 	#user{
 		 display:none;
 	}
-	#ceevee{
+	#ceev{
 		 display:none;
 	}
 	.gegevenspersoon{
@@ -346,11 +346,7 @@ table {
 	}
 	
 	#stadland{
-		margin-left: 1em;
-	}
-	#woonplaats{
-		margin-left:1em;
-	}
+		margin-left: 1em;}
 	
 	.Inleiding{
 			background-color:white;
@@ -678,6 +674,10 @@ dfn:hover:after {
 		position: absolute;
 		display: none;
 	}
+	#opdr62{
+		position: absolute;
+		display: none;
+	}
 	#opdr13{
 		background-image: url("Jelle_Structuur/Web/Soundbord.jpg");
 		height: 50vh;
@@ -695,6 +695,7 @@ dfn:hover:after {
 		position: absolute;
 		cursor: pointer;
       user-select: none;
+		display: none;
 	}
 	#opdr33{
 		background-image: url("Jelle_Structuur/Web/Screenshot 2025-05-18 at 20.42.44.png");
