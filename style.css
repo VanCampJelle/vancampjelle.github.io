@@ -666,6 +666,18 @@ dfn:hover:after {
 		cursor: pointer;
       user-select: none;
 	}
+	#opdr32{
+		position: absolute;
+		display: none;
+	}
+	#opdr42{
+		position: absolute;
+		display: none;
+	}
+	#opdr52{
+		position: absolute;
+		display: none;
+	}
 	#opdr13{
 		background-image: url("Jelle_Structuur/Web/Soundbord.jpg");
 		height: 50vh;
@@ -693,6 +705,7 @@ dfn:hover:after {
 		display: none;
 		cursor: pointer;
       user-select: none;
+		color: white;
 	}
 	#opdr43{
 		background-image: url("Jelle_Structuur/Web/Screenshot 2025-05-18 at 20.43.35.png");
@@ -703,5 +716,6 @@ dfn:hover:after {
 		display: none;
 		cursor: pointer;
       user-select: none;
+		color: white;
 	}
 }
