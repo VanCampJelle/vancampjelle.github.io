@@ -1,7 +1,7 @@
   window.addEventListener("DOMContentLoaded", () => {
   const ids = [
     "opdr1", "opdr2", "opdr3", "opdr4", "opdr5", "opdr6", "opdr7",
-    "opdr12", "opdr22", "opdr13", "opdr33", "opdr43"
+    "opdr12", "opdr22", "opdr13", "opdr33", "opdr43", "fotocv", "foto", "foto2"
   ];
 
   ids.forEach(id => {

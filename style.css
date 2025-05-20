@@ -198,6 +198,10 @@ table {
 		margin-top: 9em;
 		
 	}
+	.maploc{
+		position: absolute;
+		
+	}
 	.venster5{
 		background-color:cornflowerblue;
 		color: white;
@@ -308,14 +312,13 @@ table {
 		border: solid 1px;
 		
 	}
-	
-	.foto{
+	#foto2,
+	#foto{
 		margin-top: 1em;
-		margin-left:2em;
+		margin-left:1.3em;
 		margin-bottom: 1em;
-		border: solid 1px;
 		height:6em;
-		width:6em;
+		width:6.5em;
 	}
 	#email{
 		margin-left: 2em;
@@ -378,9 +381,15 @@ table {
 		position: absolute;
 		border: solid 1px;
 		margin-left:9em;
+		padding-top:1em;
+		padding-left:1em;
 	}
-	
-
+	#foto2,
+	#foto{
+		background-image: url("Foto_cv.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 		.cv{
 		background-color:white;
 		color: black;
@@ -582,10 +591,10 @@ dfn:hover:after {
   transform: translateX(-50%);
 }
 	.uitlegopdracht{
-		bottom: 0;
+	
 		position: absolute;
 		margin-bottom:1em;
-		margin-left:15em;
+		margin-left:17em;
 		
 	}
 	
@@ -727,7 +736,6 @@ dfn:hover:after {
 		display: none;
 		cursor: pointer;
       user-select: none;
-		color: white;
 	}
 	#opdr43{
 		background-image: url("Jelle_Structuur/Web/Screenshot 2025-05-18 at 20.43.35.png");
@@ -738,6 +746,5 @@ dfn:hover:after {
 		display: none;
 		cursor: pointer;
       user-select: none;
-		color: white;
 	}
 }
