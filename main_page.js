@@ -1,10 +1,17 @@
   window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr1"); 
+  const ids = [
+    "opdr1", "opdr2", "opdr3", "opdr4", "opdr5", "opdr6", "opdr7",
+    "opdr12", "opdr22", "opdr13", "opdr33", "opdr43"
+  ];
+
+  ids.forEach(id => {
+    const div = document.getElementById(id);
+    if (!div) return;
 
     div.addEventListener("click", () => {
       if (!document.fullscreenElement) {
         div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
+          console.error(`Fullscreen error for ${id}: ${err.message}`);
         });
       }
     });
@@ -12,248 +19,30 @@
     div.addEventListener("dblclick", () => {
       if (document.fullscreenElement) {
         document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
+          console.error(`Exit fullscreen error: ${err.message}`);
         });
       }
     });
   });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr2"); 
+});
 
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
 
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr3"); 
+function openDiv(id, label) {
+  const el = document.getElementById(id);
+  const labelEl = document.getElementById(label);
 
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
+  if (!el || !labelEl) {
+    console.error(`openDiv: ID '${id}' of label '${label}' niet gevonden.`);
+    return;
+  }
 
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr4"); 
+  console.log("openDiv: opening", id);
 
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr5"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr6"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr7"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr12"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr22"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr13"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr33"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr43"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-  window.addEventListener("DOMContentLoaded", () => {
-    const div = document.getElementById("opdr53"); 
-
-    div.addEventListener("click", () => {
-      if (!document.fullscreenElement) {
-        div.requestFullscreen().catch(err => {
-          console.error(`Error trying to enable fullscreen: ${err.message}`);
-        });
-      }
-    });
-
-    div.addEventListener("dblclick", () => {
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-          console.error(`Error trying to exit fullscreen: ${err.message}`);
-        });
-      }
-    });
-  });
-function openDiv(id,label) {
-	
-	index = document.getElementById(id).zIndex;
-	 
-	 
-    document.getElementById(id).style.display = "block";
-	 document.getElementById(label).style.backgroundColor = "transparent";
-	document.getElementById(label).style.color = "black";
-	 document.getElementById(id).style.zIndex = index + 100;
+  el.style.display = "block";
+  labelEl.style.backgroundColor = "transparent";
+  labelEl.style.color = "black";
 }
+
 
 function closeDiv(id) {
     document.getElementById(id).style.display = "none";
@@ -262,11 +51,6 @@ function dubbelClick(id){
 	document.getElementById(id).style.backgroundColor = "blue";
 	document.getElementById(id).style.color = "white";
 	
-}
-function grootScherm(id){
-	
-  document.getElementById(id).toggleClass('fullscreen'); 
-
 }
  function openVideo(id,closeid,closeid2,closeid3,closeid4,closeid5,closeid6) {
 	
@@ -279,12 +63,6 @@ function grootScherm(id){
 	document.getElementById(closeid4).style.display = "none";
 	document.getElementById(closeid5).style.display = "none";
 	document.getElementById(closeid6).style.display = "none";
-}
-function playVideo(id){
-	
-}
-function pauzeVideo(id){
-	
 }
 function showTime() {
     var date = new Date();
@@ -345,3 +123,19 @@ window.onload = function() {
         document.addEventListener('mouseup', mouseUpHandler);
     });
 });
+let clickTimer = null;
+
+function handleClick(openId, labelId) {
+  if (clickTimer) {
+    // Dubbelklik
+    clearTimeout(clickTimer);
+    clickTimer = null;
+    openDiv(openId, labelId);
+  } else {
+    // Enkele klik
+    clickTimer = setTimeout(() => {
+      dubbelClick(labelId);
+      clickTimer = null;
+    }, 300); // Tijd in ms om dubbele klik te detecteren
+  }
+}

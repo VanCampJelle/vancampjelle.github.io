@@ -198,6 +198,16 @@ table {
 		margin-top: 9em;
 		
 	}
+	.venster5{
+		background-color:cornflowerblue;
+		color: white;
+		width:30em;
+		height:1.5em;
+		position: absolute;
+		user-select: none;
+		margin-top: 9em;
+		
+	}
 	.venster4{
 		background-color:cornflowerblue;
 		color: white;
@@ -224,6 +234,16 @@ table {
 			user-select: none;
 		margin-top:10em;
 	}
+.tabsfile {
+  margin-top:10em;
+  margin-left:10em;
+  height:10em;
+  width:25em;
+  border: 1px black solid;
+  background-color: white;
+  display: none;
+  position: relative;
+}
 
 	.usertab{
 		border: 1px solid black;
@@ -264,8 +284,9 @@ table {
 	#user{
 		 display:none;
 	}
-	#ceev{
+	#ceevee{
 		 display:none;
+		
 	}
 	.gegevenspersoon{
 		background-color:white;
