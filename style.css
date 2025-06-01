@@ -94,6 +94,7 @@ table {
 	.row{
 		display: none;
 	}
+	@font-face { font-family: Nokia; src: url('"NokiaKokia.ttf"'); }
 	.mobilecontainer{
 		height:75vh;
 		width:80%;
@@ -109,13 +110,18 @@ table {
 		padding: 0.5em;
 		overflow: auto;
 	}
+	#tele{
+		position: absolute;
+		margin-left: 17em;
+		margin-top:1em;
+		font-family:;
+	}
 	#usermobile{
 		float: left;
 	}
 	
-	.clock{
-    	float: right;
-		align-content: right;
+	.tijdm{
+    position: absolute;
 	}
 	
 	.scherm{
@@ -149,7 +155,226 @@ table {
 	#werkknoppenm,
 	#overknoppenm{
 		display: none;
+		
 	}
+	#opdr1m{
+			position: absolute;
+		margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/GRAVO/Appel.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+      cursor: pointer;
+      user-select: none;
+	}
+	#opdr2m{
+			position: absolute;
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/GRAVO/Dodge_logo.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr3m{
+			position: absolute;
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/GRAVO/Kerstkaartjes.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr4m{
+			position: absolute;
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/GRAVO/LP_Structuur.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr5m{
+			position: absolute;
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/GRAVO/onderzoekstructuur.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr6m{
+			position: absolute;
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/GRAVO/Recept-art.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr7m{
+		position: absolute;
+		margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/GRAVO/Jelle-6CM-Carouselfoto.jpg");
+		height: 10vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr12m{
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/AVIVO/Edit-Race.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr22m{
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/AVIVO/Tutorials.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr32m{
+		margin-top:10em;
+		position: absolute;
+		display: none;
+		margin-left:10em;
+	}
+	#opdr42m{
+		margin-top:10em;
+		position: absolute;
+		display: none;
+		margin-left:10em;
+	}
+	#opdr52m{
+		margin-top:10em;
+		position: absolute;
+		display: none;
+		margin-left:10em;
+	}
+	#opdr62m{
+		margin-top:10em;
+		position: absolute;
+		display: none;
+		margin-left:10em;
+	}
+	#opdr13m{
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/Web/Soundbord.jpg");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr23m{
+			margin-top:10em;
+		margin-left:10em;
+		margin-bottom: 5em;
+		height: 20vh;
+		width:30%;
+		position: absolute;
+		cursor: pointer;
+      user-select: none;
+		display: none;
+	}
+	#opdr33m{
+			margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/Web/Screenshot 2025-05-18 at 20.42.44.png");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	#opdr43m{
+		margin-top:10em;
+		margin-left:10em;
+		background-image: url("Jelle_Structuur/Web/Screenshot 2025-05-18 at 20.43.35.png");
+		height: 50vh;
+		width:30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+      user-select: none;
+	}
+	.videom{
+		margin-top:1em;
+		height:10vh;
+		width:10em;
+		position: absolute;
+	}
+	#webopdrm,
+	#avivoopdrm,
+	#gravoopdrm{
+		display:none;
+	}
+	.uitlegopdrachtm{
+		padding-top:9em;
+		width:10em;
+	}
+	.sidebaravivo,
+	.sidebargravo{
+		background-color: white;
+		color: black;
+		width:30%;
+		margin-top: 0.1em;
+		height: 10em;
+		position: absolute;
+		border: solid 1px;
+		padding-top: 0.5em;
+		display: flex;
+		flex-direction: column;
+		gap: 0.2em;
+		margin-top:10em;
+		
+	}
+	
 }
 
 /* Voor DESKTOP */

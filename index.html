@@ -278,10 +278,11 @@
 	
 	  <div class="row-m">
     <div class="col-m-12">
+		<div id="tele">Nokia</div>
 	<div class="mobilecontainer">
 			<div id="boventab">
 				<div id="usermobile">
-				<b>NAAM A.</b> - HOOFDPAGINA
+				<b>Jelle Van Camp</b>
 					</div>
 				<div id="tijdm" onload="showTime()">
 					</div>
@@ -300,9 +301,9 @@
 				</div>
 				
 				<div id="werkknoppenm">
-					<button id="gravom">Grafische Vormgeving</button>
-					<button id="avivom">Audiovisuele Vormgeving</button>
-					<button id ="webm">Webdesign</button>	
+					<button id="gravom" onClick="openVideo('gravoopdrm','avivoopdrm','webopdrm')">Grafische Vormgeving</button>
+					<button id="avivom" onClick="openVideo('avivoopdrm','gravoopdrm','webopdrm')">Audiovisuele Vormgeving</button>
+					<button id ="webm" onClick="openVideo('webopdrm','avivoopdrm','gravoopdrm')">Webdesign</button>	
 				</div>
 				
 				<div id="overknoppenm">
@@ -310,8 +311,100 @@
 					<button id="gebruikerm">Gebruiker</button>
 					<button id="cvm">CV</button>
 				</div>
+				<div id="gravoopdrm">
+						<div class="sidebargravo">
+				<button class="projectnaam" onClick="openVideo('opdr1m','opdr2m','opdr3m','opdr4m','opdr5m','opdr6m','opdr7m')">Mesh tool</button>
+				<button class="projectnaam" onClick="openVideo('opdr2m','opdr1m','opdr3m','opdr4m','opdr5m','opdr6m','opdr7m')">Dodge logo</button>
+				<button class="projectnaam" onClick="openVideo('opdr3m','opdr1m','opdr2m','opdr4m','opdr5m','opdr6m','opdr7m')">Kerstkaarten</button>
+				<button class="projectnaam" onClick="openVideo('opdr4m','opdr1m','opdr2m','opdr3m','opdr5m','opdr6m','opdr7m')">LP Plaat</button>
+				<button class="projectnaam" onClick="openVideo('opdr5m','opdr1m','opdr2m','opdr3m','opdr4m','opdr6m','opdr7m')">Briefhoofd/Visitekaart</button>
+				<button class="projectnaam" onClick="openVideo('opdr6m','opdr1m','opdr2m','opdr3m','opdr4m','opdr5m','opdr7m')">Recept en State Art</button>
+				<button class="projectnaam" onClick="openVideo('opdr7m','opdr1m','opdr2m','opdr3m','opdr4m','opdr5m','opdr6m')">Netflix Carroussel</button>
+			</div>
+			
+						<div class="spacem">
+				<div id="opdr1m">
 				
+					<div class="uitlegopdrachtm">
+					Introductie mesh tool, realistisch voorwerp maken.
+					</div>
+					
+				</div>
+				<div id="opdr2m">
+					<div class="uitlegopdrachtm">Logo namaken, introductie creatief process.</div>
+					
+				</div>
+				<div id="opdr3m">
+					<div class="uitlegopdrachtm">Kerstkaarten met als inspiratie Paula Scher.</div>
 				
+				</div>
+					<div id="opdr4m">
+						<div class="uitlegopdrachtm">LP Plaat namaken in Photoshop.</div>
+						
+					</div>
+				<div id="opdr5m">
+					<div class="uitlegopdrachtm">"Briefhoofd en Visitekaartje maken voor bestaand bedrijf.</div>
+				
+					</div>
+				<div id="opdr6m">
+					<div class="uitlegopdrachtm">Twee rushopdrachten in Indesign.</div>
+				
+					</div>
+				<div id="opdr7m">
+					<div class="uitlegopdrachtm">Eigen Netflix cover maken.</div>
+				
+					</div>
+				</div>
+				</div>
+				
+				<div id="avivoopdrm">
+						<div class="sidebaravivo">
+				<button class="projectnaam" onClick="openVideo('opdr12m','opdr22m','opdr32m','opdr42m','opdr52m','opdr62m','opdr72m')">Edit Race</button>
+				<button class="projectnaam" onClick="openVideo('opdr22m','opdr12m','opdr32m','opdr42m','opdr52m','opdr62m','opdr72m')">Photoshop Tutorials</button>
+				<button class="projectnaam" onClick="openVideo('opdr32m','opdr12m','opdr22m','opdr42m','opdr52m','opdr62m','opdr72m')">Spiderman Trailer</button>
+				<button class="projectnaam" onClick="openVideo('opdr42m','opdr12m','opdr22m','opdr32m','opdr52m','opdr62m','opdr72m')">Hearing Tarantino</button>
+				<button class="projectnaam" onClick="openVideo('opdr52m','opdr12m','opdr22m','opdr32m','opdr42m','opdr62m','opdr72m')">Animate Opdrachten</button>
+				<button class="projectnaam" onClick="openVideo('opdr62m','opdr12m','opdr22m','opdr32m','opdr42m','opdr52m','opdr72m')">Cinemagraph</button>
+			</div>
+			
+			<div class="informatie">
+				
+				<div class="space">
+				<!-- <id> voor afbeeldingen en <video> voor videos!-->
+				<div id="opdr12m">
+					<div class="uitlegopdrachtm">Een edit race met hele klas in Photoshop.</div>
+					</div>
+				<div id="opdr22m">
+					<div class="uitlegopdrachtm">Photoshop tutorial maken voor klas.</div></div>
+					
+				<div id="opdr32m">
+					
+				
+					<video class="videom" id="trailerm" controls> <source src="Jelle_Structuur/AVIVO/Spidermantrailer_Jelle_3GT.mp4" type="video/mp4"></video>
+					<div class="uitlegopdrachtm">	Spiderman trailer maken, introductie Premiere Pro.</div>
+					</div>
+				<div id="opdr42m">
+			
+
+					<video  class="videom" id="tarantinom" controls> <source src="Jelle_Structuur/AVIVO/Jelle_Hearing_Tarantino_SNelleJelle_5CM.mp4" type="video/mp4"></video>
+							<div class="uitlegopdrachtm">Verhaallijn maken zonder dat je eigenlijk naar het scherm hoeft te kijken.</div>
+					</div>
+				<div id="opdr52m">
+				
+			
+					<video class="videom"   controls> <source src="Jelle_Structuur/AVIVO/Jelle_Montage_5CM.mp4" type="video/mp4"></video>
+						<div class="uitlegopdrachtm">Introductie Animate door reeks opdrachten uitgevoerd met nieuwe technieken.</div>
+					</div>
+				<div id="opdr62m">
+					
+			
+					<video  class="videom" id="cinemagraphm"  controls> <source src="Jelle_Structuur/AVIVO/Jelle_Cinemagraph_6CM.mp4" type="video/mp4"></video>
+					<div class="uitlegopdrachtm">Een reeks van drie cinemagraphs maken.</div>
+					</div>
+				
+				</div>
+				</div>
+				<div id="webopdrm"></div>
 			
 				
 			</div>
