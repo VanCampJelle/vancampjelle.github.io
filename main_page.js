@@ -52,7 +52,7 @@ function dubbelClick(id){
 	document.getElementById(id).style.color = "white";
 	
 }
- function openVideo(id,closeid,closeid2,closeid3,closeid4,closeid5,closeid6) {
+ function openVideo(id,closeid,closeid2,closeid3,closeid4,closeid5,closeid6,closeid7,closeid8,closeid9) {
 	
 	 
 	 
@@ -63,6 +63,9 @@ function dubbelClick(id){
 	document.getElementById(closeid4).style.display = "none";
 	document.getElementById(closeid5).style.display = "none";
 	document.getElementById(closeid6).style.display = "none";
+	 document.getElementById(closeid7).style.display = "none";
+	 document.getElementById(closeid8).style.display = "none";
+	 document.getElementById(closeid9).style.display = "none";
 }
 function showTime() {
     var date = new Date();

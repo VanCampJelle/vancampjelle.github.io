@@ -114,7 +114,7 @@ table {
 		position: absolute;
 		margin-left: 17em;
 		margin-top:1em;
-		font-family:;
+		color:white;
 	}
 	#usermobile{
 		float: left;
@@ -138,6 +138,12 @@ table {
 	}
 	.buttons{
 		font-weight: bold;
+	}
+	body{
+		background-color:grey;
+	}
+	.mobilecontainer{
+		background-color:white;
 	}
 	#werkm,
 	#overm,
@@ -259,6 +265,7 @@ table {
 		display: none;
 		cursor: pointer;
       user-select: none;
+		position: absolute;
 	}
 	#opdr22m{
 			margin-top:10em;
@@ -271,6 +278,7 @@ table {
 		display: none;
 		cursor: pointer;
       user-select: none;
+		position: absolute;
 	}
 	#opdr32m{
 		margin-top:10em;
@@ -307,6 +315,7 @@ table {
 		display: none;
 		cursor: pointer;
       user-select: none;
+		position: absolute;
 	}
 	#opdr23m{
 			margin-top:10em;
@@ -318,6 +327,7 @@ table {
 		cursor: pointer;
       user-select: none;
 		display: none;
+		position: absolute;
 	}
 	#opdr33m{
 			margin-top:10em;
@@ -330,6 +340,7 @@ table {
 		display: none;
 		cursor: pointer;
       user-select: none;
+		position: absolute;
 	}
 	#opdr43m{
 		margin-top:10em;
@@ -342,6 +353,7 @@ table {
 		display: none;
 		cursor: pointer;
       user-select: none;
+		position: absolute;
 	}
 	.videom{
 		margin-top:1em;
@@ -355,8 +367,22 @@ table {
 		display:none;
 	}
 	.uitlegopdrachtm{
-		padding-top:9em;
+		padding-top:7em;
 		width:10em;
+	}
+	.sidebarweb{
+		background-color: white;
+		color: black;
+		width:30%;
+		margin-top: 0.1em;
+		height: 10em;
+		position: absolute;
+		border: solid 1px;
+		padding-top: 0.5em;
+		display: flex;
+		flex-direction: column;
+		gap: 0.2em;
+		margin-top:10em;
 	}
 	.sidebaravivo,
 	.sidebargravo{
@@ -373,6 +399,102 @@ table {
 		gap: 0.2em;
 		margin-top:10em;
 		
+	}
+	#contactmobiel,
+	#cvmobiel,
+	#gebruikermobiel{
+		display: none;
+	}
+	#email{
+		margin-top:2em;
+		margin-left: 5.25em;
+	}
+	#telefoon{
+		margin-left:5.25em;
+	}
+	
+	.bericht{
+		background-color:white;
+		color: black;
+		width:21em;
+		margin-top:0.3em;
+		height:13em;
+		position: absolute;
+		
+		margin-left:4em;
+	}
+	#emailuser{
+		height:1.4em;
+		position:relative;
+	    margin-top:2em;
+		margin-left:2em;
+		color: black;
+	    float:left;
+	    width:25em;
+	}
+
+	#berichtuser{
+		width:25em;
+		height: 1.4em;
+		position:relative;
+		padding-bottom:8em;
+		margin-top:1.8em;
+		margin-left:2em;
+	    color: black;
+		float:left;
+		padding-top: 0.8em;
+	}
+	
+	.verzend{
+		position: relative;
+		margin-top:0.2em;
+		margin-left:2.1em;
+	}
+	#fotom{
+		position: absolute;
+		background-image: url("Foto_cv.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+		#inleiding{
+		margin-left: 2em;
+	}
+	
+	#stadland{
+		margin-top:2em;
+		margin-left: 4.9em;}
+	
+	.Inleiding{
+			background-color:white;
+		color: black;
+		width:21em;
+		margin-top:0.3em;
+		height:13em;
+		position: absolute;
+	
+		margin-left:4em;
+		padding-top:1em;
+		padding-left:1em;
+	}
+			.cv{
+	
+		color: black;
+		width:30em;
+		margin-top:0.3em;
+		height:33em;
+		position: absolute;
+		
+		
+	}
+	
+	
+	#fotocv{
+		background-image:url("Jelle_CV_5CM.pdf");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin: 1em 1em 1em 4em;
+		height:30em;
+		width:21.24em;
 	}
 	
 }

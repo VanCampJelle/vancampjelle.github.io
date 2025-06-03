@@ -290,27 +290,57 @@
 			<div class="scherm">
 				<div id="startpaginaknoppenm">
 					
-				<button id="werkm" onClick="openVideo('werkknoppenm','startpaginaknoppenm')">
+				<button id="werkm" onClick="openVideo('werkknoppenm','overknoppenm')">
 					Werk
 				</button>
 					
-				<button id="overm" onClick="openVideo('overknoppenm','startpaginaknoppenm')">
+				<button id="overm" onClick="openVideo('overknoppenm','werkknoppenm')">
 					Over
 				</button>
 					
 				</div>
 				
 				<div id="werkknoppenm">
-					<button id="gravom" onClick="openVideo('gravoopdrm','avivoopdrm','webopdrm')">Grafische Vormgeving</button>
-					<button id="avivom" onClick="openVideo('avivoopdrm','gravoopdrm','webopdrm')">Audiovisuele Vormgeving</button>
-					<button id ="webm" onClick="openVideo('webopdrm','avivoopdrm','gravoopdrm')">Webdesign</button>	
+					<button id="gravom" onClick="openVideo('gravoopdrm','avivoopdrm','webopdrm','contactmobiel','gebruikermobiel','cvmobiel')">Grafische Vormgeving</button>
+					<button id="avivom" onClick="openVideo('avivoopdrm','gravoopdrm','webopdrm','contactmobiel','gebruikermobiel','cvmobiel')">Audiovisuele Vormgeving</button>
+					<button id="webm" onClick="openVideo('webopdrm','avivoopdrm','gravoopdrm','contactmobiel','gebruikermobiel','cvmobiel')">Webdesign</button>	
 				</div>
 				
 				<div id="overknoppenm">
-					<button id="contactm">Contact</button>
-					<button id="gebruikerm">Gebruiker</button>
-					<button id="cvm">CV</button>
+					<button id="contactm" onClick="openVideo('contactmobiel','gebruikermobiel','cvmobiel','gravopdrm','webopdrm','avivopdrm')">Contact</button>
+					<button id="gebruikerm" onClick="openVideo('gebruikermobiel','contactmobiel','cvmobiel','gravopdrm','webopdrm','avivopdrm')">Gebruiker</button>
+					<button id="cvm" onClick="openVideo('cvmobiel','gebruikermobiel','contactmobiel','gravopdrm','webopdrm','avivopdrm')">CV</button>
 				</div>
+				
+				<div id="contactmobiel">
+				    <div class="gegevenspersoon">
+        	<div id="email">jellevancamp
+						@hotmail.be</div>
+       		<div id="telefoon">0493466327</div>
+        	</div>
+        <div class="bericht">
+        <input type="email" id="emailuser" placeholder="E-mailadres">
+<input type="text" id="berichtuser" placeholder="Type hier je bericht, naam en email...">
+<button class="verzend">Verzenden</button>
+        </div>
+				</div>
+				<div id="gebruikermobiel">
+				      
+        <div id="fotom"></div>
+        <div id="stadland">Waregem, Belgi&#235;</div>
+       
+    
+			 <div class="Inleiding">
+                   Hallo ik ben Jelle momenteel ben ik een student 6de jaar crossmedia in Ter Sterre. Ik ben goed in programmeren en ik hou ook van creatieve uitdagingen.
+        </div>
+				</div>
+				<div id="cvmobiel">
+				 <div class="cv">
+        <div id="fotocv"></div>
+        </div>
+				</div>
+				
+				
 				<div id="gravoopdrm">
 						<div class="sidebargravo">
 				<button class="projectnaam" onClick="openVideo('opdr1m','opdr2m','opdr3m','opdr4m','opdr5m','opdr6m','opdr7m')">Mesh tool</button>
@@ -367,7 +397,7 @@
 				<button class="projectnaam" onClick="openVideo('opdr62m','opdr12m','opdr22m','opdr32m','opdr42m','opdr52m','opdr72m')">Cinemagraph</button>
 			</div>
 			
-			<div class="informatie">
+		
 				
 				<div class="space">
 				<!-- <id> voor afbeeldingen en <video> voor videos!-->
@@ -404,7 +434,33 @@
 				
 				</div>
 				</div>
-				<div id="webopdrm"></div>
+				<div id="webopdrm">
+			<div class="sidebarweb">
+				<button class="projectnaam" onClick="openVideo('opdr13m','opdr23m','opdr33m','opdr43m','opdr53m','opdr63m','opdr73m')">Omnia-Soundboard</button>
+				<button class="projectnaam" onClick="openVideo('opdr23m','opdr13m','opdr33m','opdr43m','opdr53m','opdr63m','opdr73m')">Spel</button>
+				<button class="projectnaam" onClick="openVideo('opdr33m','opdr13m','opdr23m','opdr43m','opdr53m','opdr63m','opdr73m')">Gamecharacter</button>
+				<button class="projectnaam" onClick="openVideo('opdr43m','opdr13m','opdr23m','opdr33m','opdr53m','opdr63m','opdr73m')">3D Life Simulator</button>
+			</div>
+			
+		
+				
+				<div class="space">
+				<!-- <id> voor afbeeldingen en <video> voor videos!-->
+				<div id="opdr13m">
+					<div class="uitlegopdrachtm">Soundboard maken in HTML,CSS en Javascript.</div></div>
+					
+				<div id="opdr23m">
+					<video class="videom" id="spelm" controls> <source src="Jelle_Structuur/Web/Jelle_JavaScript-Game_5CM.mp4"></video>
+					<div class="uitlegopdrachtm">	Spel maken in HTML,CSS en Javascript.</div>
+					</div>
+				<div id="opdr33m" > 
+					<div class="uitlegopdrachtm">3D Gamecharacter voor mijn jaarproject.</div>
+					</div>
+					<div id="opdr43m" >
+						<div class="uitlegopdrachtm">Spel in elkaar stoppen dit was mijn eindwerk voor mijn jaarproject.</div>
+						</div>
+				</div>
+					</div>
 			
 				
 			</div>
