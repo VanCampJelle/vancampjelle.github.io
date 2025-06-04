@@ -28,13 +28,13 @@
 		
 		<!-- VENSTERS DIE OPEN EN DICHT MOETEN MOGEN NIET IN DE DIV ZITTEN DIE ZE OPROEPT!-->
 		
-		<div class="folders" id="buttonwerk" onClick="dubbelClick('folderwerk')" ondblClick="openDiv('tabwerk','folderwerk')">
+		<div class="folders" id="buttonwerk" onClick="dubbelClick('folderwerk','folderover')" ondblClick="openDiv('tabwerk','folderwerk')">
 		<div class="folderimage"></div>
 		<div class="foldername" id="folderwerk">Werk</div>
 		</div>
 		
 		
-		<div class="folders" id="buttonover" onClick="dubbelClick('folderover')" ondblClick="openDiv('tabover','folderover')">
+		<div class="folders" id="buttonover" onClick="dubbelClick('folderover','folderwerk')" ondblClick="openDiv('tabover','folderover')">
 		<div class="folderimage"></div>
 		<div class="foldername" id="folderover">Over</div>
 		</div>
@@ -46,15 +46,15 @@
 						<button class="closetab" onClick="closeDiv('tabwerk')">X</button>
 			&nbsp;&nbsp;PC Werk
 			
-			<div class="folders" id="map1" onClick="dubbelClick('folderwerk1')" ondblClick="openDiv('werk1','folderwerk1')">
+			<div class="folders" id="map1" onClick="dubbelClick('folderwerk1','folderwerk2','folderwerk3')" ondblClick="openDiv('werk1','folderwerk1')">
 			<div class="folderimage"></div>
 			<div class="foldername" id="folderwerk1">Grafische Vormgeving</div>
 			</div>
-			<div class="folders" id="map2" onClick="dubbelClick('folderwerk2')" ondblClick="openDiv('werk2','folderwerk2')">
+			<div class="folders" id="map2" onClick="dubbelClick('folderwerk2','folderwerk1','folderwerk3')" ondblClick="openDiv('werk2','folderwerk2')">
 			<div class="folderimage"></div>
 			<div class="foldername" id="folderwerk2">Audiovisuele Vormgeving</div>
 			</div>
-			<div class="folders" id="map3" onClick="dubbelClick('folderwerk3')" ondblClick="openDiv('werk3','folderwerk3')">
+			<div class="folders" id="map3" onClick="dubbelClick('folderwerk3','folderwerk1','folderwerk2')" ondblClick="openDiv('werk3','folderwerk3')">
 			<div class="folderimage"></div>
 			<div class="foldername" id="folderwerk3">Webdesign</div>
 			</div>
@@ -218,15 +218,15 @@
 	    	&nbsp;&nbsp;PC Over
 			
 			
-		<div class="folders" id="buttoncontact" onClick="dubbelClick('foldercontact')" ondblClick="openDiv('contact','foldercontact')">
+		<div class="folders" id="buttoncontact" onClick="dubbelClick('foldercontact','foldergebruiker','foldercv')" ondblClick="openDiv('contact','foldercontact')">
 		<div class="folderimage"></div>
 		<div class="foldername" id="foldercontact">Contact</div>
 		</div>
-		<div class="folders" id="buttongebruiker" onClick="dubbelClick('foldergebruiker')" ondblClick="openDiv('gebruiker','foldergebruiker')">
+		<div class="folders" id="buttongebruiker" onClick="dubbelClick('foldergebruiker','foldercontact','foldercv')" ondblClick="openDiv('gebruiker','foldergebruiker')">
 		<div class="folderimage"></div>
 		<div class="foldername" id="foldergebruiker">Gebruiker</div>
 		</div>
-		<div class="folders" id="buttoncv" onclick="dubbelClick('foldercv')" ondblClick="openDiv('ceevee','foldercv')">
+		<div class="folders" id="buttoncv" onclick="dubbelClick('foldercv','foldergebruiker','foldercontact')" ondblClick="openDiv('ceevee','foldercv')">
 		<div class="folderimage"></div>
 		<div class="foldername" id="foldercv">CV</div>
 		</div>	

@@ -47,11 +47,17 @@ function openDiv(id, label) {
 function closeDiv(id) {
     document.getElementById(id).style.display = "none";
 }
-function dubbelClick(id){
+ 
+function dubbelClick(id,id2,id3){
 	document.getElementById(id).style.backgroundColor = "blue";
 	document.getElementById(id).style.color = "white";
-	
+	document.getElementById(id2).style.backgroundColor = "transparent";
+	document.getElementById(id2).style.color = "black";
+	document.getElementById(id3).style.backgroundColor = "transparent";
+	document.getElementById(id3).style.color = "black";
 }
+	 
+
  function openVideo(id,closeid,closeid2,closeid3,closeid4,closeid5,closeid6,closeid7,closeid8,closeid9,closeid10,closeid11) {
 	
 	 
