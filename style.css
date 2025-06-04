@@ -101,7 +101,7 @@ table {
 		border: 1px black solid;
 		position: absolute;
 		margin-top:2.5em;
-		margin-left:2.5vw;
+		margin-left:11vw;
 	}
 	#boventab{
 		height:4vh;
@@ -615,6 +615,10 @@ table {
 		background-repeat: no-repeat;
 		widht:1.2em;
         margin-top:0.2;
+	}
+	.enlarge{
+		position: absolute;
+		margin-bottom:5em;
 	}
 	.TabContent {
 		background-color: black;
