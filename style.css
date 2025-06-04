@@ -101,7 +101,7 @@ table {
 		border: 1px black solid;
 		position: absolute;
 		margin-top:2.5em;
-		margin-left:3.5em;
+		margin-left:2.5vw;
 	}
 	#boventab{
 		height:4vh;
@@ -112,7 +112,7 @@ table {
 	}
 	#tele{
 		position: absolute;
-		margin-left: 50vw;
+		margin-left: 45vw;
 		margin-top:1em;
 		color:white;
 	}

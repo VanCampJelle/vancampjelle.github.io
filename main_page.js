@@ -52,7 +52,7 @@ function dubbelClick(id){
 	document.getElementById(id).style.color = "white";
 	
 }
- function openVideo(id,closeid,closeid2,closeid3,closeid4,closeid5,closeid6,closeid7,closeid8,closeid9) {
+ function openVideo(id,closeid,closeid2,closeid3,closeid4,closeid5,closeid6,closeid7,closeid8,closeid9,closeid10,closeid11) {
 	
 	 
 	 
