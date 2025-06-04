@@ -405,7 +405,7 @@ table {
 	#gebruikermobiel{
 		display: none;
 	}
-	#email{
+	#emailm{
 		margin-top:2em;
 		margin-left: 5.25em;
 	}
@@ -414,7 +414,7 @@ table {
 	}
 	
 	.bericht{
-		background-color:white;
+		background-color:transparent;
 		color: black;
 		width:21em;
 		margin-top:0.3em;
@@ -423,7 +423,7 @@ table {
 		
 		margin-left:4em;
 	}
-	#emailuser{
+	#emailuserm{
 		height:1.4em;
 		position:relative;
 	    margin-top:2em;
@@ -433,7 +433,7 @@ table {
 	    width:25em;
 	}
 
-	#berichtuser{
+	#berichtuserm{
 		width:25em;
 		height: 1.4em;
 		position:relative;
@@ -456,11 +456,11 @@ table {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
-		#inleiding{
+		#inleidingm{
 		margin-left: 2em;
 	}
 	
-	#stadland{
+	#stadlandm{
 		margin-top:2em;
 		margin-left: 4.9em;}
 	
