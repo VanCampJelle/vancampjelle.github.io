@@ -424,7 +424,7 @@ table {
 		margin-left:5.25em;
 	}
 	.gegevenspersoon{
-		margin-left:4.5em;
+		margin-left:1em;
 	}
 	
 	.bericht{
@@ -435,13 +435,13 @@ table {
 		height:13em;
 		position: absolute;
 		
-		margin-left:4em;
+		margin-left:1em;
 	}
 	#emailuserm{
 		height:1.4em;
 		position:relative;
 	    margin-top:2em;
-		margin-left:1em;
+		margin-left:0.2em;
 		color: black;
 	    float:left;
 	    width:25em;
@@ -453,7 +453,7 @@ table {
 		position:relative;
 		padding-bottom:8em;
 		margin-top:1.8em;
-		margin-left:1em;
+		margin-left:0.2em;
 	    color: black;
 		float:left;
 		padding-top: 0.8em;
@@ -462,7 +462,7 @@ table {
 	.verzend{
 		position: relative;
 		margin-top:0.2em;
-		margin-left:2.1em;
+		margin-left:0.3em;
 	}
 	#fotom{
 		position: absolute;
@@ -471,31 +471,32 @@ table {
 		background-repeat: no-repeat;
 	}
 		#inleidingm{
-		margin-left: 1em;
+		margin-left: 0.2em;
+	
 	}
 	
 	#stadlandm{
 		margin-top:1em;
-		margin-left: 4.9em;}
+		margin-left: 1em;}
 	
 	.Inleiding{
 			background-color:white;
 		color: black;
-		width:21em;
+		width:50%;
 		margin-top:0.3em;
 		height:13em;
 		position: absolute;
 	
-		margin-left:4em;
+		margin-left:1em;
 		padding-top:1em;
 		padding-left:1em;
 	}
 			.cv{
 	
 		color: black;
-		width:30em;
+		width:40%;
 		margin-top:0.3em;
-		height:33em;
+		height:80%;
 		position: absolute;
 		
 		
