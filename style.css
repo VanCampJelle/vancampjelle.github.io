@@ -145,6 +145,13 @@ table {
 	.mobilecontainer{
 		background-color:white;
 	}
+	#werkm{
+		z-index: 999;
+	}
+	#overm{
+		z-index: 999;
+	}
+	
 #menu-container {
     position: absolute;
     bottom: 0;
