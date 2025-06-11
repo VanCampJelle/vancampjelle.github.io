@@ -412,6 +412,9 @@ table {
 	#telefoon{
 		margin-left:5.25em;
 	}
+	.gegevenspersoon{
+		margin-left:4.5em;
+	}
 	
 	.bericht{
 		background-color:transparent;
@@ -427,7 +430,7 @@ table {
 		height:1.4em;
 		position:relative;
 	    margin-top:2em;
-		margin-left:2em;
+		margin-left:1em;
 		color: black;
 	    float:left;
 	    width:25em;
@@ -439,7 +442,7 @@ table {
 		position:relative;
 		padding-bottom:8em;
 		margin-top:1.8em;
-		margin-left:2em;
+		margin-left:1em;
 	    color: black;
 		float:left;
 		padding-top: 0.8em;
@@ -457,11 +460,11 @@ table {
 		background-repeat: no-repeat;
 	}
 		#inleidingm{
-		margin-left: 2em;
+		margin-left: 1em;
 	}
 	
 	#stadlandm{
-		margin-top:2em;
+		margin-top:1em;
 		margin-left: 4.9em;}
 	
 	.Inleiding{
@@ -488,7 +491,7 @@ table {
 	}
 	
 	
-	#fotocv{
+	#fotocvm{
 		background-image:url("Jelle_CV_5CM.pdf");
 		background-size: contain;
 		background-repeat: no-repeat;
