@@ -508,8 +508,8 @@ table {
 		background-size: contain;
 		background-repeat: no-repeat;
 		margin: 1em 1em 1em 4em;
-		height:30em;
-		width:21.24em;
+		height:100%;
+		width:100%;
 	}
 	
 }
