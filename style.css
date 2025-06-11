@@ -145,23 +145,34 @@ table {
 	.mobilecontainer{
 		background-color:white;
 	}
-	#werkm,
-	#overm,
-	#gebruikerm,
-	#cvm,
-	#contactm,
-	#gravom,
-	#avivom,
-	#webm{
-		background-color: grey;
-		color: white;
-		with:30%;
-	}
-	
+#menu-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* <-- Toegevoegd */
+    justify-content: space-around;
+    background-color: lightgrey;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+
+#menu-container button {
+    background-color: grey;
+    color: white;
+    width: 12%;
+    min-width: 100px;   /* Zorgt ervoor dat ze niet te klein worden */
+    height: 40px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
 	#werkknoppenm,
 	#overknoppenm{
 		display: none;
-		
 	}
 	#opdr1m{
 			position: absolute;
